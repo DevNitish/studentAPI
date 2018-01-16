@@ -25,18 +25,15 @@ for (i = 1; i < noOfRow-1; i++) {
 //fs.writeFile( "./rawdata/student.json", JSON.stringify( jArray ), "utf8");
 
 //Finding topten
-var big = 0;
-var topTen = [];
-var index = -1;
-for (var j = 0; j < 10; j++) {
-  for (var i = 0; i < jArray.length; i++) {
-    if (jArray[i].score > big && jArray[i].score > 0) {
-      big = jArray[i];
-      index = i;
-    }
-  }
-  jArray[index].score = -1;
-  topTen.push(big);
-  big = 0;
+
+function compare(a,b) {
+  if (a.score < b.score)
+    return -1;
+  if (a.score > b.score)
+    return 1;
+  return 0;
 }
-console.log(topTen);
+
+jArray.sort(compare);
+
+console.log(jArray.reverse().slice(0,0+10));
