@@ -1,0 +1,10 @@
+{ "_id" : ObjectId("5a5e4cf822207027c05aa391"), "name" : "Nokia", "__v" : 0 }
+{ "_id" : ObjectId("5a5e4d0922207027c05aa392"), "name" : "Apple", "__v" : 0 }
+{ "_id" : ObjectId("5a5e4d0f22207027c05aa393"), "name" : "LG", "__v" : 0 }
+{ "_id" : ObjectId("5a5e4d1e22207027c05aa394"), "name" : "Nicknet", "__v" : 0 }
+
+
+{ "_id" : ObjectId("5a5e522b3dcff324106f6c6a"), "brand" : ObjectId("5a5e4d1e22207027c05aa394"), "name" : "Youtube", "__v" : 0 }
+{ "_id" : ObjectId("5a5e52553dcff324106f6c6b"), "brand" : ObjectId("5a5e4d1e22207027c05aa394"), "name" : "Blog", "__v" : 0 }
+{ "_id" : ObjectId("5a5e526d3dcff324106f6c6c"), "brand" : ObjectId("5a5e4d0f22207027c05aa393"), "name" : "TV", "__v" : 0 }
+{ "_id" : ObjectId("5a5e52733dcff324106f6c6d"), "brand" : ObjectId("5a5e4d0f22207027c05aa393"), "name" : "AC", "__v" : 0 }
